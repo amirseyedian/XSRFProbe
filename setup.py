@@ -31,7 +31,7 @@ setup(
     % __import__("xsrfprobe").__version__,
     packages=find_packages(),
     scripts=["xsrfprobe/bin/xsrfprobe"],
-    install_requires=["requests", "bs4", "stringdist", "tld", "yattag"],
+    install_requires=["setuptools","requests", "bs4", "stringdist", "tld", "yattag"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: System Administrators",
